@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Temp\\BlazorApp2\\BlazorApp2\\BlazorApp2.csproj": {}
+    "/Users/iris/Documents/GitHub/BlazorApp2/BlazorApp2/BlazorApp2.csproj": {}
   },
   "projects": {
-    "E:\\Temp\\BlazorApp2\\BlazorApp2\\BlazorApp2.csproj": {
+    "/Users/iris/Documents/GitHub/BlazorApp2/BlazorApp2/BlazorApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Temp\\BlazorApp2\\BlazorApp2\\BlazorApp2.csproj",
+        "projectUniqueName": "/Users/iris/Documents/GitHub/BlazorApp2/BlazorApp2/BlazorApp2.csproj",
         "projectName": "BlazorApp2",
-        "projectPath": "E:\\Temp\\BlazorApp2\\BlazorApp2\\BlazorApp2.csproj",
-        "packagesPath": "C:\\Users\\24867\\.nuget\\packages\\",
-        "outputPath": "E:\\Temp\\BlazorApp2\\BlazorApp2\\obj\\",
+        "projectPath": "/Users/iris/Documents/GitHub/BlazorApp2/BlazorApp2/BlazorApp2.csproj",
+        "packagesPath": "/Users/iris/.nuget/packages/",
+        "outputPath": "/Users/iris/Documents/GitHub/BlazorApp2/BlazorApp2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\24867\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/iris/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -38,7 +38,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
@@ -55,6 +56,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.31, 8.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.31, 8.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.31, 8.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -63,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
